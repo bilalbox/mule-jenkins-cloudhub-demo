@@ -14,7 +14,7 @@ pipeline {
   stages {
     stage('MVN Build Deploy') {
       steps {
-        sh 'mvn deploy -DskipTests -DmuleDeploy -Dcloud.env=$ANYPOINT_ENV -Danypoint.businessGroup=$ANYPOINT_BG -Dcloudhub.workerType=$ANYPOINT_WORKER_SIZE -DcloudhubAppName=$ANYPOINT_APP_NAME -Dmule.version=$ANYPOINT_MULE_VER -Dcloud.user=$ANYPOINT_CREDS_USR -Dcloud.password=$ANYPOINT_CREDS_PSW'
+        sh 'mvn deploy -DskipTests -DmuleDeploy -Dcloud.env=$ANYPOINT_ENV -Danypoint.businessGroup=$ANYPOINT_BG -Dcloudhub.workerType=$ANYPOINT_WORKER_SIZE -DcloudhubAppName=$ANYPOINT_APP_NAME-$ANYPOINT_CREDS_USR -Dmule.version=$ANYPOINT_MULE_VER -Dcloud.user=$ANYPOINT_CREDS_USR -Dcloud.password=$ANYPOINT_CREDS_PSW'
       }
     }
   }

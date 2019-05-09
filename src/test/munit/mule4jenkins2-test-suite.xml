@@ -20,7 +20,7 @@
 		<munit:validation>
 			<munit-tools:assert-that doc:name="Assert that payload is correct"
 				doc:id="81a662aa-07d2-438e-a0fb-0115085f1df2" expression="#[payload.message]"
-				is='#[MunitTools::equalTo("Hello World")]' message="Payload has an incorrect value after transform." />
+				is='#[MunitTools::equalTo("Hello Mule")]' message="Payload has an incorrect value after transform." />
 		</munit:validation>
 	</munit:test>
 
