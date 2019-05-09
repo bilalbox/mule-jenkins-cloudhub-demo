@@ -23,7 +23,7 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 output application/json
 ---
 {
-	message: "Hello World!"
+	message: "Hello $(attributes.queryParams.name default 'Mule')!"
 }]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
