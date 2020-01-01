@@ -1,7 +1,7 @@
-# IRS MuleSoft Docker Lab
-> MuleSoft lab infrastructure for training Infinite folks
+# MuleSoft Docker Lab
+> MuleSoft lab infrastructure for training
 
-This deploys a simple "Hello World" application to MuleSoft CloudHub using Jenkins Blue Ocean pipeline. It requires an active [AnyPoint Platform](https://anypoint.mulesoft.com) account. of docker containers to create the infrastructure required to support Infinite Resource Solutions' MuleSoft training labs. What is docker? See [Learning](#learning) at the end of this document.
+This deploys a simple "Hello World" application to MuleSoft CloudHub using Jenkins Blue Ocean pipeline. It requires an active [AnyPoint Platform](https://anypoint.mulesoft.com) account. of docker containers to create the infrastructure required to support MuleSoft training labs. What is docker? See [Learning](#learning) at the end of this document.
 
 
 
