@@ -36,4 +36,4 @@ Copy that value to your clipboard.
 
 3. Navigate to http://localhost:8080 and enter the security token you retrieved from the container logs in step #2.
 
-4. Complete Jenkins installation and configuration (COMING SOON!)
+4. Complete Jenkins installation and configuration
